@@ -1,22 +1,94 @@
-.App {
-  text-align: center;
+#entryTitle
+{ color: white;
+	font-weight: 800;
+	font-size:3.5em;
+	width: 100%;
+	text-align: center;
+  font-family: 'Noto Sans TC'
 }
 
-.App-logo {
-  height: 40vmin;
+#avatar
+{
+  border: 1px solid rgba(73, 72, 72, 0.25);
+  padding: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#appBar
+{
+  background-color: white;
+  height: 10%;
 }
 
-.App-link {
-  color: #09d3ac;
+#paperContainer
+{ 
+	height: 90%;
+  width: 100%;
 }
+
+#backgroundImageContainer
+{
+  height:100%;
+  width:100%;
+  z-index: -1;
+  background-position: center; 
+  background-image: url('./images/main.jpg'); 
+  opacity: 0.8;
+}
+
+#appBarTitle
+{
+  margin-left:0.5em;
+  margin-right: 4em;
+  font-size: 2em;
+  font-weight:1000;
+  color: #25a2b2;
+  font-family: 'Bree Serif'
+}
+
+#outerContainer
+{
+  z-index: 0;
+  position: absolute;
+  width: 100%;
+  top: 40%;
+}
+
+#innerContainer{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    margin: 2em auto;
+}
+
+#innerContainer #button1, #innerContainer #button2
+{
+  z-index: 1000;
+  font-size: 1.5em;
+  height: 3em;
+  width: 9em;
+  font-family: 'Noto Sans TC'
+}
+
+#button1
+{
+  color:white;
+  border: 5px solid white;
+}
+
+#button1:hover
+{
+  color: black;
+  background-color: white;
+}
+
+#button2{
+  color:white;
+  margin-left: auto;
+  background-color: darkgreen;
+  border: transparent solid ;
+}
+
+#button2:hover{
+  background-color:	#359044;
+}
+
