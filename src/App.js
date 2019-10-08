@@ -6,8 +6,8 @@ import Paper from '@material-ui/core/Paper';
 import NavBar from './component/NavBar.js';
 import Button from '@material-ui/core/Button';
 import Avatar from '@material-ui/core/Avatar';
- 
-import icon from './images/logo_row.png';
+import './App.css';
+import eesa_icon from './images/eesa-icon.png';
 
 
 class App extends Component {
@@ -16,10 +16,13 @@ class App extends Component {
 			<div style={{height:'100%', width: '100%'}}>
 				<AppBar id="appBar" position="static">
 					<Toolbar style={{display:'flex'}}>
-						<Avatar src={icon} id="avatar"></Avatar>
+						<Avatar src={eesa_icon} id="avatar"></Avatar>
+						<TypoGraphy variant="title" id="appBarTitle">
+							NTUEE+
+           				</TypoGraphy>
 						<NavBar/>
 						<TypoGraphy>
-
+							
 						</TypoGraphy>
 					</Toolbar>
 				</AppBar>
@@ -27,11 +30,11 @@ class App extends Component {
 					<div id="backgroundImageContainer"></div>
 					<div id="outerContainer">
 						<TypoGraphy variant="title" id="entryTitle">
-							NTUEE+
+							國立台灣大學電機工程學系學會
 						</TypoGraphy>
 						<div id="innerContainer">
 							<Button id="button1">聯絡我們</Button>
-							<Button id="button2">台大電機系官網</Button>
+							<Button id="button2">系學會官網</Button>
 						</div>
 					</div>
 				</Paper>
