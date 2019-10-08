@@ -3,6 +3,7 @@
 ```bash
 $ npm install
 $ npm start
+$ jjjjjj
 ```
 
 ## 20191008~20191021
