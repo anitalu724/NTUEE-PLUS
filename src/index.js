@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import AppBar from './components/AppBar'
+import AppBar from './component/AppBar'
+import Contact from './Contact';
 // import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <div>
         <AppBar />
+        <Contact />
     </div>
     
     , document.getElementById('root')
