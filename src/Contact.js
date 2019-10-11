@@ -1,3 +1,5 @@
+
+=======
 import React, { Component } from 'react';
 import './Contact.css';
 import eesa_icon from './images/eesa-icon.png';
@@ -35,4 +37,5 @@ class Contact extends Component{
     }
 }
 
+>>>>>>> remotes/origin/master
 export default Contact;
