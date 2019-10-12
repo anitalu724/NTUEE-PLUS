@@ -1,6 +1,6 @@
 html {
     background-color: #003F67;
-  }
+}
 
 #left_column{
     float:left;
@@ -60,6 +60,7 @@ html {
     left:50%;
     bottom:5%;
     margin-left:-50px;
+    margin-bottom: -15%;
     
 }
 
