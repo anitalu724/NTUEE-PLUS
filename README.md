@@ -20,3 +20,8 @@ $ npm start
 >    - 網頁實體圖請參考[NTUEE+規劃網頁](https://hackmd.io/@eOq5K6tyQl-8mimmimYygQ/Hy7bepVDB/edit)
 
 #### 更新項目請參閱[NTUEE+StepbyStep](https://hackmd.io/@eOq5K6tyQl-8mimmimYygQ/rymgVwa_r/edit)
+
+## 20191021~20191111
+> * noidname01 : Register
+> * martinooh : Forget
+> * anitalu724 : Home / Script drawing
