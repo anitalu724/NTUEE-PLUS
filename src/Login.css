@@ -7,11 +7,11 @@
 }
 #input{
     position: absolute;
-    top:35%;
-    left:25%;
+    top:40%;
+    left:33%;
     
     color:white;
-    width:50%;
+    width:35%;
     
     
 }
@@ -24,15 +24,15 @@
 #username_tag{
     margin:0;
     float: left;
-    font-size: 48px;
+    font-size: 20px;
     font-weight:500;
 }
 
 #username_input{
     background-color: #003F67;
-    height:48px;
-    width:55%;
-    font-size:48px;
+    height:20px;
+    width:65%;
+    font-size:20px;
     
     border-width:0 0 4px 0;
     border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
@@ -55,21 +55,21 @@
 #password_tag{
     margin:0;
     float:left;
-    font-size: 48px;
+    font-size: 20px;
     font-weight:500;
 }
 
 #password_input{
     background-color: #003F67;
-    height:48px;
-    width:55%;
-    font-size:48px;
+    height:16px;
+    width:65%;
+    font-size:20px;
     
     border-width:0 0 4px 0;
     border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
     border-image-slice: 1;
     
-    margin-left:6.7%;
+    margin-left:6.2%;
     margin-top:2%;
 }
 #password_input:focus::placeholder{
