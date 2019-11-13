@@ -45,10 +45,21 @@
     width:50%;
     background-color: #003F67;
     border-width:0 0 4px 0;
-    border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
     border-image-slice: 1;
     float: right;
     margin-right:5%;
+}
+#realname:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#realname:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#realname:focus::-ms-input-placeholder{
+    color:#003F67
 }
 #realname:focus::placeholder{
     color:#003F67
@@ -63,10 +74,21 @@
     width:50%;
     background-color: #003F67;
     border-width:0 0 4px 0;
-    border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
     border-image-slice: 1;
     float: right;
     margin-right:5%;
+}
+#student_id:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#student_id:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#student_id:focus::-ms-input-placeholder{
+    color:#003F67
 }
 #student_id:focus::placeholder{
     color:#003F67
@@ -82,10 +104,21 @@
     width:50%;
     background-color: #003F67;
     border-width:0 0 4px 0;
-    border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
     border-image-slice: 1;
     float: right;
     margin-right:5%;
+}
+#password:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#password:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#password:focus::-ms-input-placeholder{
+    color:#003F67
 }
 #password:focus::placeholder{
     color:#003F67
@@ -101,10 +134,21 @@
     width:50%;
     background-color: #003F67;
     border-width:0 0 4px 0;
-    border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
     border-image-slice: 1;
     float: right;
     margin-right:5%;
+}
+#confirm_password:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#confirm_password:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#confirm_password:focus::-ms-input-placeholder{
+    color:#003F67
 }
 #confirm_password:focus::placeholder{
     color:#003F67
@@ -119,23 +163,33 @@
     height:9%;
     color: gray;
     font-weight: 700;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
     background-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -webkit-transition-property: background-image;
     transition-property: background-image;
-    transition-duration: 2s;
-    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     border-style:none;
     border-radius: 5px;
 }
 #register_button:hover{
+    background-image:-webkit-gradient(linear, right top, left top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
     background-image:linear-gradient(to left, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
 }
 #register_text{
-    transform: rotate3d(1,0,0,0deg);
+    -webkit-transform: rotate3d(1,0,0,0deg);
+            transform: rotate3d(1,0,0,0deg);
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: -webkit-transform 2s ease-in-out;
     transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
     
 }
 #register_button:hover #register_text{
-    transform: rotate3d(1,0,0,360deg);
+    -webkit-transform: rotate3d(1,0,0,360deg);
+            transform: rotate3d(1,0,0,360deg);
 }
 #FAQ{
     display: inline-block;
