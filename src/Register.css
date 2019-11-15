@@ -1,0 +1,214 @@
+#container{
+    position: absolute;
+    top:15%;
+    font-family:'Noto Sans TC',Arial,sans-serif;
+
+    width:100%;
+    height: 85%;
+}
+#register_table{
+    width:65%;
+    margin-left:5%;
+    float:left;
+    color: white;
+}
+#table_title{
+    letter-spacing: 2px;
+}
+#table{
+    margin-top: 5%;
+    margin-left:10%;
+    font-size: 24px;
+    letter-spacing: 1px;
+    
+}
+#input1{
+    margin-top:3%;
+}
+#input2{
+    margin-top:3%;
+}
+#input3{
+    margin-top: 3%;
+}
+#input4{
+    margin-top: 3%;
+}
+#realname_label{
+    margin:0;
+    display: inline;
+    text-align: center;
+}
+#realname{
+    color:white;
+    font-size: 24px;
+    width:50%;
+    background-color: #003F67;
+    border-width:0 0 4px 0;
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    border-image-slice: 1;
+    float: right;
+    margin-right:5%;
+}
+#realname:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#realname:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#realname:focus::-ms-input-placeholder{
+    color:#003F67
+}
+#realname:focus::placeholder{
+    color:#003F67
+}
+#ID_label{
+    margin:0;
+    display: inline;
+}
+#student_id{
+    color:white;
+    font-size: 24px;
+    width:50%;
+    background-color: #003F67;
+    border-width:0 0 4px 0;
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    border-image-slice: 1;
+    float: right;
+    margin-right:5%;
+}
+#student_id:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#student_id:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#student_id:focus::-ms-input-placeholder{
+    color:#003F67
+}
+#student_id:focus::placeholder{
+    color:#003F67
+}
+
+#password_label{
+    margin:0;
+    display: inline;
+}
+#password{
+    color:white;
+    font-size: 24px;
+    width:50%;
+    background-color: #003F67;
+    border-width:0 0 4px 0;
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    border-image-slice: 1;
+    float: right;
+    margin-right:5%;
+}
+#password:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#password:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#password:focus::-ms-input-placeholder{
+    color:#003F67
+}
+#password:focus::placeholder{
+    color:#003F67
+}
+#confirm_password_label{
+    margin:0;
+    display: inline;
+    text-align: center;
+}
+#confirm_password{
+    color:white;
+    font-size: 24px;
+    width:50%;
+    background-color: #003F67;
+    border-width:0 0 4px 0;
+    -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+       border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+       border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    border-image-slice: 1;
+    float: right;
+    margin-right:5%;
+}
+#confirm_password:focus::-webkit-input-placeholder{
+    color:#003F67
+}
+#confirm_password:focus:-ms-input-placeholder{
+    color:#003F67
+}
+#confirm_password:focus::-ms-input-placeholder{
+    color:#003F67
+}
+#confirm_password:focus::placeholder{
+    color:#003F67
+}
+#register_button{
+    font-size: 16px;
+    position: absolute;
+    clear: both;
+    bottom: 20%;
+    left:25%;
+    width: 30%;
+    height:9%;
+    color: gray;
+    font-weight: 700;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+    background-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+    -webkit-transition-property: background-image;
+    transition-property: background-image;
+    -webkit-transition-duration: 2s;
+            transition-duration: 2s;
+    -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    border-style:none;
+    border-radius: 5px;
+}
+#register_button:hover{
+    background-image:-webkit-gradient(linear, right top, left top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
+    background-image:linear-gradient(to left, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
+}
+#register_text{
+    -webkit-transform: rotate3d(1,0,0,0deg);
+            transform: rotate3d(1,0,0,0deg);
+    -webkit-transition: -webkit-transform 2s ease-in-out;
+    transition: -webkit-transform 2s ease-in-out;
+    transition: transform 2s ease-in-out;
+    transition: transform 2s ease-in-out, -webkit-transform 2s ease-in-out;
+    
+}
+#register_button:hover #register_text{
+    -webkit-transform: rotate3d(1,0,0,360deg);
+            transform: rotate3d(1,0,0,360deg);
+}
+#FAQ{
+    display: inline-block;
+    width: 30%;
+}
+#FAQ_title{
+    color: gray;
+    margin-top:10%;
+    text-align: center;
+    font-size:24px;
+}
+#splitline{
+    width:95%;
+    border-width: 0 0 2px 0 ;
+    border-style:solid ;
+    border-color:gray;
+    border-radius: 1px;
+}
+
+#FAQ_list{
+    list-style-type: none;
+}
