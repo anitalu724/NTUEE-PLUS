@@ -4,11 +4,13 @@ import './index.css';
 import App from './App';
 import AppBar from './component/AppBar'
 import Contact from './Contact';
+import Login from './Login';
+import Register from './Register'
 // import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <div>
         <AppBar />
-        <Contact />
+        <Register />
     </div>
     
     , document.getElementById('root')
