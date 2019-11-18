@@ -19,7 +19,7 @@ class About extends Component{
                 </h1>
             </div>
             
-            <div id="down">>
+            <div id="down">
                 <p id="down_text">
                     我們希望這個聯絡網能成為<br/>
                     一個整合式的社群網路，<br/>

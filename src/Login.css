@@ -2,10 +2,10 @@
     outline:0;
 }
 
-#container{
+#Login_container{
     font-family:'Noto Sans TC',Arial,sans-serif;
 }
-#input{
+#Login_input{
     position: absolute;
     top:40%;
     left:33%;
@@ -16,19 +16,19 @@
     
 }
 
-#username{
+#Login_username{
     
     margin-bottom: 5%;
 }
 
-#username_tag{
+#Login_username_tag{
     margin:0;
     float: left;
     font-size: 20px;
     font-weight:500;
 }
 
-#username_input{
+#Login_username_input{
     background-color: #003F67;
     height:20px;
     width:65%;
@@ -44,44 +44,44 @@
     margin-top:2%;
 }
 
-#username_input:focus::-webkit-input-placeholder{
+#Login_username_input:focus::-webkit-input-placeholder{
     color: #003F67;
     
 }
 
-#username_input:focus:-ms-input-placeholder{
+#Login_username_input:focus:-ms-input-placeholder{
     color: #003F67;
     
 }
 
-#username_input:focus::-ms-input-placeholder{
+#Login_username_input:focus::-ms-input-placeholder{
     color: #003F67;
     
 }
 
-#username_input:focus::placeholder{
+#Login_username_input:focus::placeholder{
     color: #003F67;
     
 }
 
 
-#password{
+#Login_password1{
     clear: both;
 }
 
-#password_tag{
+#Login_password_tag{
     margin:0;
     float:left;
     font-size: 20px;
     font-weight:500;
 }
 
-#password_input{
+#Login_password_input{
     background-color: #003F67;
     height:16px;
     width:65%;
     font-size:20px;
-    
+    clear:both;
     border-width:0 0 4px 0;
     -o-border-image: linear-gradient(to right, rgb(106, 255, 198) 0%, rgb(48, 232, 255) 100%);
        border-image: -webkit-gradient(linear, left top, right top, from(rgb(106, 255, 198)), to(rgb(48, 232, 255)));
@@ -91,42 +91,42 @@
     margin-left:6.2%;
     margin-top:2%;
 }
-#password_input:focus::-webkit-input-placeholder{
+#Login_password_input:focus::-webkit-input-placeholder{
     color: #003F67;
     
 }
-#password_input:focus:-ms-input-placeholder{
+#Login_password_input:focus:-ms-input-placeholder{
     color: #003F67;
     
 }
-#password_input:focus::-ms-input-placeholder{
+#Login_password_input:focus::-ms-input-placeholder{
     color: #003F67;
     
 }
-#password_input:focus::placeholder{
+#Login_password_input:focus::placeholder{
     color: #003F67;
     
 }
 
-#links{
+#Login_links{
     clear: both;
     margin-top:5%;
     
 }
 
-#create{
+#Login_create{
     float:left;
     color:white;
     text-decoration: none;
 }
 
-#forgot{
+#Login_forgot{
     float:right;
     color:white;
     text-decoration: none;
 }
 
-#footer{
+#Login_footer{
     position: absolute;
     bottom:0%;
     left:42.5%;
@@ -135,17 +135,17 @@
     color:white;
 }
 
-#logo{
+#Login_logo{
     position: relative;
     left:50%;
     margin-bottom: -15%;
-    margin-left:-50px;
+    margin-left: -20%;
     
 }
 
-#footer_text_1{
+#Login_footer_text_1{
     margin:0;
 }
-#footer_text_2{
+#Login_footer_text_2{
     margin:0;
 }
