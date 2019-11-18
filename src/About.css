@@ -1,50 +1,53 @@
 html {
     background-color: #003F67;
-   
-    
 }
-
 #up{
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
 }
 #up_text{
     position:absolute;
     bottom:70%;
+    text-align: center;
     font-family:'Noto Sans TC',Arial,sans-serif;
     color:white;
 }
 
 #down{
     display:flex;
-    flex-wrap:wrap;
     justify-content:center;
 }
 #down_text{
     position: absolute;
-    bottom:10%;
+    bottom:30%;
     text-align: center;
     font-family:'Noto Sans TC',Arial,sans-serif;
     color:white;
 }
 
-#footer{
+#butt{
     display:flex;
     justify-content:center;
+
+}
+input{
     position: absolute;
-    bottom:0%;
+    bottom:15%;
+    width:150px;height:50px;
+    font-size: 20px;
+    border-radius:10px;
+
+    background-color:#fff;
+    color:#000;
+    border:2px #000 solid;
+
+    cursor:pointer; 
+}
+  
+input:hover{
+    background-color:#000;
+    color:#fff;
+    border:2px #fff solid;
 }
 
-#logo{
-    display:flex;
-    bottom:5%;
-    margin-bottom: -10%;
-    
-}
 
-#footer_text{
-    margin:0;
-    font-family:'Noto Sans TC',Arial,sans-serif;
-    color:white;
-}
