@@ -9,7 +9,7 @@ import Avatar from '@material-ui/core/Avatar';
 import './About.css';
 import eesa_icon from './images/eesa-icon.png';
 
-class Support extends Component{
+class About extends Component{
     render(){
         return (
         <div id="container">
@@ -32,7 +32,7 @@ class Support extends Component{
             </div>
 
             <div id="butt">
-                <input type="button" value="JOIN US" />
+                <button type="button_text">JOIN US</button>
             </div>
             
         </div>
@@ -40,4 +40,4 @@ class Support extends Component{
     }
 }
 
-export default Support;
+export default About;
