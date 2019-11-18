@@ -2,7 +2,7 @@ html {
     background-color: #003F67;
 }
 
-#left_column{
+#Contact_left_column{
     float:left;
     position: absolute;
     left:25%;
@@ -13,18 +13,18 @@ html {
     font-weight:500;
 }
 
-#left_image{
+#Contact_left_image{
     
     overflow: hidden;
 }
 
-#left_text{
+#Contact_left_text{
     margin:0;
     text-align: center;
     font-family:'Noto Sans TC',Arial,sans-serif;
 }
 
-#right_column{
+#Contact_right_column{
     float:left;
     position: absolute;
     right:25%;
@@ -35,18 +35,18 @@ html {
     font-weight:500;
 }
 
-#right_image{
+#Contact_right_image{
     
     overflow: hidden;
 }
 
-#right_text{
+#Contact_right_text{
     margin:0;
     text-align: center;
     font-family:'Noto Sans TC',Arial,sans-serif;
 }
 
-#footer{
+#Contact_footer{
     position: absolute;
     bottom:0%;
     left:42.5%;
@@ -55,7 +55,7 @@ html {
     color:white;
 }
 
-#logo{
+#Contact_logo{
     position: relative;
     left:50%;
     bottom:5%;
@@ -64,9 +64,9 @@ html {
     
 }
 
-#footer_text_1{
+#Contact_footer_text_1{
     margin:0;
 }
-#footer_text_2{
+#Contact_footer_text_2{
     margin:0;
 }
