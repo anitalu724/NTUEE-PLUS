@@ -25,3 +25,8 @@ $ npm start
 > * noidname01 : Register
 > * martinooh : Forget
 > * anitalu724 : Home / Script drawing
+
+## 20191118~20191201
+> * noidname01 : Inside_profile
+> * martinooh : Inside_column
+> * anitalu724 : NavBar modifying
