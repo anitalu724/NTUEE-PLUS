@@ -5,6 +5,12 @@ $ npm install
 $ npm start
 ```
 
+## If error when running, maybe try this.
+```bash
+$ rm -rf node_modules
+$ npm install
+```
+
 ## 20191008~20191021
 
 #### 分頭進行程式
