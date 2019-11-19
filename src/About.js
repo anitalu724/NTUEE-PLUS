@@ -1,11 +1,4 @@
 import React, { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import TypoGraphy from '@material-ui/core/Typography';
-import Paper from '@material-ui/core/Paper';
-import NavBar from './component/NavBar.js';
-import Button from '@material-ui/core/Button';
-import Avatar from '@material-ui/core/Avatar';
 import './About.css';
 import eesa_icon from './images/eesa-icon.png';
 

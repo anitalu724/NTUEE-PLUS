@@ -11,7 +11,6 @@ class Login extends Component{
                         <p id="Login_username_tag">Username:</p>
                         <input id="Login_username_input" placeholder="username" autoFocus></input>
                     </div>
-
                     <div id="Login_password1">
                         <p id="Login_password_tag">Password:</p>
                         <input id="Login_password_input" placeholder="password" type="password"></input>
