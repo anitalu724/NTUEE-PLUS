@@ -5,7 +5,9 @@ import App from './App';
 import AppBar from './component/AppBar'
 import Contact from './Contact';
 import Login from './Login';
-import Register from './Register'
+import Register from './Register';
+import Support from './Support';
+import About from './About';
 // import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
     <div>
