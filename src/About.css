@@ -1,50 +1,53 @@
 html {
     background-color: #003F67;
 }
-#up{
-    display:flex;
-    justify-content:center;
+
+#About_up{
+    display: flex;
+    justify-content: center;
 }
-#up_text{
-    position:absolute;
-    bottom:70%;
+#About_up_text{
+    position: absolute;
+    bottom: 70%;
+    text-align: center;
+    font-family: 'Noto Sans TC',Arial,sans-serif;
+    color: white;
+}
+
+#About_down{
+    display: flex;
+    justify-content: center;
+}
+#About_down_text{
+    position: absolute;
+    bottom: 30%;
     text-align: center;
     font-family:'Noto Sans TC',Arial,sans-serif;
-    color:white;
+    color: white;
 }
 
-#down{
-    display:flex;
-    justify-content:center;
+#About_btn{
+    display: flex;
+    justify-content: center;
 }
-#down_text{
+#About_btn_text{
     position: absolute;
-    bottom:30%;
-    text-align: center;
-    font-family:'Noto Sans TC',Arial,sans-serif;
-    color:white;
-}
-
-#butt{
-    display:flex;
-    justify-content:center;
-
-}
-button{
-    position: absolute;
-    bottom:15%;
-    width:150px;height:50px;
+    bottom: 15%;
+    
+    width: 150px;
+    height: 50px;
     font-size: 20px;
-    border-radius:10px;
+    border-radius: 10px;
 
-    background-color:#fff;
-    color:#000;
+    cursor: pointer;
+    
+    background-color: #fff;
+    color: #000;
     border:2px #000 solid;
 }
-
-button:hover{
-    background-color:#000;
-    color:#fff;
-    border:2px #fff solid;
+#About_btn_text:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px #fff solid;
 }
 
