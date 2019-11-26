@@ -5,15 +5,16 @@ import eesa_icon from './images/eesa-icon.png';
 class About extends Component{
     render(){
         return (
-        <div id="container">
-            <div id="up">
-                <h1 id="up_text">
+        <div id="About_container">
+            
+            <div id="About_up">
+                <h1 id="About_up_text">
                     Welcome to NTUEE+
                 </h1>
             </div>
-            
-            <div id="down">
-                <p id="down_text">
+
+            <div id="About_down">
+                <p id="About_down_text">
                     我們希望這個聯絡網能成為<br/>
                     一個整合式的社群網路，<br/>
                     讓NTUEErs聚在一起；<br/>
@@ -24,8 +25,8 @@ class About extends Component{
                 </p>
             </div>
 
-            <div id="butt">
-                <button type="button_text">JOIN US</button>
+            <div id="About_btn">
+                <button id="About_btn_text">JOIN US</button>
             </div>
             
         </div>
