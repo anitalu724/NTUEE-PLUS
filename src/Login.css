@@ -7,7 +7,7 @@
 }
 #Login_input{
     position: absolute;
-    top:40%;
+    top:35%;
     left:33%;
     
     color:white;
@@ -78,7 +78,7 @@
 
 #Login_password_input{
     background-color: #003F67;
-    height:16px;
+    height:20px;
     width:65%;
     font-size:20px;
     clear:both;
@@ -108,10 +108,30 @@
     
 }
 
+
+
 #Login_links{
     clear: both;
     margin-top:5%;
+}
+
+
+#Login_submit{
+    position: absolute;
+    top:65%;
+    left:45.5%;
+    width:10%;
+    height: 7%;
+    border: 2px black solid;
+    border-radius:10px;
+    font-size: larger;
+    background-color: white;
     
+}
+#Login_submit:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px #fff solid;
 }
 
 #Login_create{
