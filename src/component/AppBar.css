@@ -35,7 +35,7 @@
     text-decoration:none;
 }
 #AppBar_Link:hover{
-    color:black;
+    color:rgb(48, 232, 255) ;
 }
 #AppBar_Link:focus{
     color: #005588;
