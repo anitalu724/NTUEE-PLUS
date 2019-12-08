@@ -37,16 +37,16 @@ html {
     height: 50px;
     font-size: 20px;
     border-radius: 10px;
-
     cursor: pointer;
     background-color:  #003f67;
     color: #fff;
     border: 2px #fff solid;
-    
+    font-weight: bold;
     
 }
 #About_btn_text:hover{
     background-color: #fff;
     color: #003f67;
+    font-weight: bold;
 }
 

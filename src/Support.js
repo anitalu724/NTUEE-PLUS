@@ -20,14 +20,11 @@ class Support extends Component{
                     備註:NTUEE-PLUS
                 </p>
             </div>
+            
             <div id="Support_footer">
-                <p id="Support_footer_text">
-                    聯絡信箱:ntueesa@gmail.com<br/>
-                    台灣大學電機工程學系 系學會
-                </p>
-            </div>
-            <div id="Support_logo">
-                <img id="Support_logo_pic" src={eesa_icon} width="100px" alt="logo"/>
+                <img id="Support_logo" src={eesa_icon} width="75px" alt="logo"></img>
+                <p id="Support_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
+                <p id="Support_footer_text">台灣大學電機工程學系 系學會</p>
             </div>
         </div>
         )

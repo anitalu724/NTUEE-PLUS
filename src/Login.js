@@ -16,25 +16,18 @@ class Login extends Component{
                             <p id="Login_password_tag">Password:</p>
                             <input id="Login_password_input" placeholder="password" type="password"></input>
                         </div>
-                        
                     </form>
                     <div id="Login_links">
                         <Link id = "Login_create" to="/Register">Create a new account</Link>
                         <Link id = "Login_forgot" to="/Forget">Forgot your password?</Link>
                     </div>
-                    
                 </div>
-
-                
                 <input id="Login_submit" type="submit" value="LOGIN" />
-                
-
                 <div id="Login_footer">
-                    <img id="Login_logo" src={eesa_icon} alt="logo" width="100px" ></img>
-                    <p id="Login_footer_text_1">聯絡信箱:ntueesa@gmail.com</p>
-                    <p id="Login_footer_text_2">台灣大學電機工程學系 系學會</p>
+                    <img id="Login_logo" src={eesa_icon} alt="logo" width="75px" ></img>
+                    <p id="Login_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
+                    <p id="Login_footer_text">台灣大學電機工程學系 系學會</p>
                 </div>
-
             </div>
         )
     }
