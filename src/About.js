@@ -6,13 +6,11 @@ class About extends Component{
     render(){
         return (
         <div id="About_container">
-            
             <div id="About_up">
                 <h1 id="About_up_text">
                     Welcome to NTUEE+
                 </h1>
             </div>
-
             <div id="About_down">
                 <p id="About_down_text">
                     我們希望這個聯絡網能成為<br/>
