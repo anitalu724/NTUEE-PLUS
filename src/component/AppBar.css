@@ -38,10 +38,10 @@
     color:black;
 }
 #AppBar_Link:focus{
-    color: #3238FF;
+    color: #005588;
 }
 #AppBar_Link:active{
-    color: #1138FF;
+    color: #005588;
 }
 
 

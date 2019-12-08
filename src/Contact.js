@@ -30,6 +30,7 @@ class Contact extends Component{
                 <p id="Contact_footer_text_1">聯絡信箱:ntueesa@gmail.com</p>
                 <p id="Contact_footer_text_2">台灣大學電機工程學系 系學會</p>
             </div>
+            
         </div>
         )
     }
