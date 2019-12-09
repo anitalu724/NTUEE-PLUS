@@ -1,9 +1,7 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import { Link } from 'react-router-dom';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Logo from './Logo';
 import './AppBar.css'; 
@@ -15,10 +13,10 @@ const NavBar = () => {
         <Toolbar >
             <Link id = "AppBar_Logo" to="/"><Logo/></Link>
             <div id = "AppBar_menu">
-              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link"to="/Login">Login</Link></Button>
-              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link"to="/Support">Support</Link></Button>
-              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link"to="/Contact">Contact</Link></Button>
-              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link"to="/About">About</Link></Button>
+              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link" to="/Login">Login</Link></Button>
+              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link" to="/Support">Support</Link></Button>
+              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link" to="/Contact">Contact</Link></Button>
+              <Button id = "AppBar_menuButton"><Link id = "AppBar_Link" to="/About">About</Link></Button>
             </div>
         </Toolbar>
       </AppBar>

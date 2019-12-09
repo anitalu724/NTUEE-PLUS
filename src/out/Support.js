@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Support.css';
-import eesa_icon from './images/eesa-icon.png';
+import eesa_icon from '../images/eesa-icon.png';
 
 class Support extends Component{
     render(){

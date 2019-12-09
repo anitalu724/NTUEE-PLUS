@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
 import './Forget.css';
-import eesa_icon from './images/eesa-icon.png';
+import eesa_icon from '../images/eesa-icon.png';
 
 class Forget extends Component{
     render(){
         return(
             <div id="Forget_container">
-
                 <div id="Forget_left_table">
                     <div id="Forget_input">
                         <p id="Forget_input_text">Student ID</p>

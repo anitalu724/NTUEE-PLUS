@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Register.css';
-import eesa_icon from './images/eesa-icon.png';
+import eesa_icon from '../images/eesa-icon.png';
 
 class Register extends Component{
     render(){

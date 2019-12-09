@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './About.css';
-import eesa_icon from './images/eesa-icon.png';
 
 class About extends Component{
     render(){
@@ -26,7 +25,6 @@ class About extends Component{
             <div id="About_btn">
                 <button id="About_btn_text">JOIN US</button>
             </div>
-            
         </div>
         )
     }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Login.css';
-import eesa_icon from './images/eesa-icon.png';
+import eesa_icon from '../images/eesa-icon.png';
 import { Link } from 'react-router-dom';
 class Login extends Component{
     render(){
