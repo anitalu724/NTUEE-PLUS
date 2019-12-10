@@ -22,9 +22,9 @@ class Support extends Component{
             </div>
             
             <div id="Support_footer">
-                <img id="Support_logo" src={eesa_icon} width="75px" alt="logo"></img>
+                <img id="Support_logo" src={eesa_icon} alt="logo"></img>
                 <p id="Support_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
-                <p id="Support_footer_text">台灣大學電機工程學系 系學會</p>
+                <p id="Support_footer_text_2">台灣大學電機工程學系 系學會</p>
             </div>
         </div>
         )

@@ -24,9 +24,9 @@ class Login extends Component{
                 </div>
                 <input id="Login_submit" type="submit" value="LOGIN" />
                 <div id="Login_footer">
-                    <img id="Login_logo" src={eesa_icon} alt="logo" width="75px" ></img>
+                    <img id="Login_logo" src={eesa_icon} alt="logo" ></img>
                     <p id="Login_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
-                    <p id="Login_footer_text">台灣大學電機工程學系 系學會</p>
+                    <p id="Login_footer_text_2">台灣大學電機工程學系 系學會</p>
                 </div>
             </div>
         )

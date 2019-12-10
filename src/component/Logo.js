@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../images/logo_row.png'; // Tell Webpack this JS file uses this image
 import { makeStyles } from '@material-ui/styles';
+import { positions } from '@material-ui/system';
 //console.log(logo); // /logo.84287d09.png
 
 const useStyles = makeStyles({
@@ -8,6 +9,7 @@ const useStyles = makeStyles({
         height:70,
         width:193,
         paddingTop:10
+
     },
   });
 

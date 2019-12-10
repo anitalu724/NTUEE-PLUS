@@ -1,5 +1,6 @@
 #AppBar_root{
     position:fixed;
+    align-items:stretch;
     z-index: 1;
     width: 100%;
 }
@@ -13,35 +14,47 @@
 }
 #AppBar_Logo{
     display: inline-block;
+    flex-grow:1;
+    /* border:2px solid red; */
+}
+#AppBar_space{
+    display: inline-block;
+    flex-grow:3;
+    /* border:2px solid red; */
 }
 #AppBar_menu{
-    flex-grow: 1;
-    height:100%;
+    display: inline-block;
+    flex-grow:2;
+    /* border:2px solid red; */
+    
 }
 
+
 #AppBar_menuButton{
+    display: inline-block;
+    position: relative;
+    /* border:2px solid green; */
     flex-grow: 1;
-    width: 15%;
+    width: 25%;
     height: 100%;
-    float:right;
     margin:0;
-    padding : 100%,100%;
-    margin-right: 300;
-}
-#AppBar_Link{
     color:#6AFFC6;
-    font-size: 14;
+    font-size: 1.3vw;
     font-weight:Bold;
     text-decoration:none;
 }
-#AppBar_Link:hover{
+#AppBar_Link{
+    color:#6AFFC6;
+    font-size: 1.3vw;
+    font-weight:Bold;
+    text-decoration:none;
+}
+#AppBar_menuButton:hover{
     color:rgb(48, 232, 255) ;
 }
-#AppBar_Link:focus{
+#AppBar_menuButton:focus{
     color: #005588;
 }
-#AppBar_Link:active{
+#AppBar_menuButton:active{
     color: #005588;
 }
-
-
