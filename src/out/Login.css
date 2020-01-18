@@ -133,6 +133,9 @@
     cursor: pointer;
 }
 #Login_submit:hover{
+    transition-property: background-color, color;
+    transition-timing-function: cubic-bezier(0.4.0,0.2,1),cubic-bezier(0.4.0,0.2,1);
+    transition-duration: 250ms, 250ms;
     background-color: #fff;
     color: #003f67;
     font-weight: bold;
