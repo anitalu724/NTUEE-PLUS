@@ -22,7 +22,8 @@ class Login extends Component{
                         <Link id = "Login_forgot" to="/Forget">Forgot your password?</Link>
                     </div>
                 </div>
-                <input id="Login_submit" type="submit" value="LOGIN" />
+                <Link id = "Login_test" to="/Home_in"><input id="Login_submit" type="submit" value="LOGIN"/></Link>
+                    
                 <div id="Login_footer">
                     <img id="Login_logo" src={eesa_icon} alt="logo" ></img>
                     <p id="Login_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
