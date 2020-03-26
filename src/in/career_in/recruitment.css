@@ -1,0 +1,39 @@
+#recruitment_container {
+	position : relative;
+}
+#recruitment_section {
+	overflow: auto;
+	margin-top : 1em;
+	margin-bottom : 1em;
+	margin-left : 10vw;
+	margin-right : 10vw;
+	background-color : #FFA07A;
+}
+#recruitment_section_1 {
+	margin : 10px;
+	background-color : #FFA07A;
+}
+#recruitment_section_2 {
+	
+}
+#recruitment_img {
+	margin : 10px;
+	background-image: url("https://factsnfigs.com/wp-content/uploads/2019/06/Find_Jobs.jpg"); 
+	background-size:600px 400px;
+	float : left;
+	width : 600px;
+	height : 400px;
+	background-color : #000;
+}
+#recruitment_text {
+
+}
+#recruitment_info {
+	margin : 10px;
+}
+@media (max-width:1200px){
+	
+}
+@media (max-width:500px){
+	
+}

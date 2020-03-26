@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import "./LoginChange.css"
-//import axios from "axios";
+import axios from "axios";
+import refresh from "../images/refresh.png"
 
 class LoginChange extends Component {
-	/*constructor(props) {
+	constructor(props) {
 		super(props);
 		this.state = {
 			username:'',
 			account:'',
-			question:''
+			question:'',
+			img:''
 		};
 		this.handleSubmit = this.handleSubmit.bind(this)
 	}
@@ -23,7 +25,8 @@ class LoginChange extends Component {
 						this.setState({
 							username:res.data.data.username,
 							account:res.data.data.account,
-							question:res.data.data.SQ
+							question:res.data.data.SQ,
+							img:res.data.data.img
 						});
 					}else{
 						alert('錯誤：\n'+res.data.description);
@@ -47,6 +50,7 @@ class LoginChange extends Component {
 	}
 	
 	btn_click=e=>{
+		console.log("hi")
 		e.preventDefault();
 		this.showPersonal();
 	}
@@ -73,29 +77,29 @@ class LoginChange extends Component {
 				})
 			}
 		}
-	}*/
+	}
 	
 	render(){
 		return (
 			<div description="personalInfo" id="LC_container">
 			  <div id="LC_hr">Security Question Reset</div>
-			  <form >{/*onSubmit={this.handleSubmit}}*/}
-			  <button id="LC_refresh_btn" /*onClick={"this.btn_click"}*/>refresh</button>
+			  <form onSubmit={this.handleSubmit} >
+			  <button id="LC_refresh_btn" onClick={this.btn_click}><img src={refresh} alt="refresh" id="LC_refresh_icon"></img></button>
+			  {/*<img src={this.state.img} />*/}
 			  <table id = "LC_table" cellSpacing="10">
 				<tr>
 					<td>學號</td>
-					<td colSpan="2">{"this.state.account"}</td>
+					<td colSpan="2">{this.state.account}</td>
 				</tr>
 				<tr>
 					<td>姓名</td>
-					<td colSpan="2">{"this.state.username"}</td>
+					<td colSpan="2">{this.state.username}</td>
 				</tr>
 				<tr>
 					<td>安全問題</td>
 					<td colSpan="2">
-						
-						<input id="LC_safe_Question" placeholder="username" autoFocus
-							/*value={this.state.question} onChange={this.handleInputChange}*/>
+						<input id="LC_safe_Question" placeholder={this.state.question} autoFocus
+							 onChange={this.handleInputChange} /*value={this.state.question}*/>
 						</input>
 					
 					</td>

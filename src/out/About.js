@@ -3,10 +3,13 @@ import './About.css';
 import eesa_icon from '../images/eesa-icon.png';
 import { Link } from 'react-router-dom';
 import Button from '@material-ui/core/Button';
+import { NavBar } from '../component/AppBar';
+import Footer from "../component/Footer";
 class About extends Component{
     render(){
         return (
         <div id="About_container">
+            <NavBar/>
             <div id = "About_space"></div>
             <div id="About_up">
                 <h1 id="About_up_text">
@@ -27,11 +30,7 @@ class About extends Component{
             
             <Link id="About_join" to="/Login"><Button id="About_join_btn">JOIN US</Button></Link>
             
-            <div id="About_footer">
-                    <img id="About_logo" src={eesa_icon} alt="logo" ></img>
-                    <p id="About_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
-                    <p id="About_footer_text_2">台灣大學電機工程學系 系學會</p>
-            </div>
+            <footer id="index_footer"><Footer/></footer>
         </div>
         )
     }
