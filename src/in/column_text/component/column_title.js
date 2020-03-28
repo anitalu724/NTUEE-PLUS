@@ -30,7 +30,7 @@ class Column_title extends Component{
                 {/* {this.state.title} */}
             </div>
         )
-        }   
+    }   
 }
 
 export default Column_title;

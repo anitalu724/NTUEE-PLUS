@@ -8,7 +8,6 @@ class Column_article extends Component{
             sections : this.props.sections,
             id : this.props.id
         }
-
     }
     render(){
         const new_sections = [];
