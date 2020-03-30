@@ -37,4 +37,5 @@ ehthumbs.db
 Thumbs.db
 
 /NTUEE-PLUS/node_modules/.cache
-node_modules
+node_modules/
+.vscode/
