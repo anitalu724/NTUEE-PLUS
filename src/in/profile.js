@@ -253,14 +253,14 @@ class Profile extends Component{
                 <form id="Profile_loginform" onSubmit={this.handleSubmit}>
                     <div id="Profile_userimage_container">
 					{/*$imagePreview*/}
-						<img src={this.state.imagePreviewUrl} id="Profile_userimage" alt="userimage"></img>
+						<img src={this.state.imagePreviewUrl} id="Profile_userimage"></img>
                         <label id="Profile_userimage_change">
                         <input type="file"
                          onChange = {this.handleImageChange}
                          name = "userimage"
 						 accept = "image/*"
                          style = {{display:"none"}}></input>
-                         <span id="Profile_addImage_icon">➕ <p style={{display:"inline",fontSize:"14px"}}>Add Head Shot</p></span>
+                         <span id="Profile_addImage_icon"><br/>➕ <p style={{display:"inline",fontSize:"14px"}}>Add Head Shot</p></span>
                         </label>
                     </div>
                     
@@ -274,7 +274,7 @@ class Profile extends Component{
 							name="realname_checkbox"></input>
                             <input type="text" id="Profile_realname" value = {this.state.realname} onChange = {this.handleInputChange} name="realname"></input>
                                 </li>
-                                <li>
+                                <li style={{marginBottom:"8vh"}}>
                                 <p id="Profile_nickname_tag">Nickname:</p>
                             <input type="checkbox" id="Profile_nickname_checkbox"
 							checked = {this.state.nickname_checkbox}
