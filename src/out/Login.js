@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import './Login.css';
-import fb_icon from '../images/social_fb.png'
-import Footer from "../component/Footer";
+import FacebookLogin from 'react-facebook-login';
+import ReactDOM from 'react-dom';
+// import Footer from "../component/Footer";
 import { Link,Redirect } from 'react-router-dom';
 import axios from "axios";
 import { NavBar } from '../component/AppBar';
+import Footer from '../component/Footer/Footer'
 class Login extends Component{
 	constructor(props) {
 		super(props);
 		this.state = {
 		  Login_username_input: '',
 		  Login_password_input: '',
-		  isLogin: null
+		  Login_facebook_ID: '',
+		  isLogin: false,
+		  isFBLogin: false
 		};
 
 		this.handleInputChange = this.handleInputChange.bind(this);
@@ -58,13 +62,46 @@ class Login extends Component{
 			}
 		}
 	}
+
+	handleFBSubmit = (response) => {
+		if (response.status == "unknown") {
+			return
+		}
+		axios.post("/api/loginFB", {facebookID: response.userID}).then(res => {
+			console.log(res.data);
+			if(res.data){
+				if(res.data.message===true){
+					alert('Logged in! Welcome：'+res.data.username);
+					this.setState({
+						Login_facebook_ID:response.userID,
+						isFBLogin : true,
+						isLogin   : true
+					});
+				}else{
+					alert('User not registered!');
+					this.setState({
+						Login_facebook_ID:response.userID,
+						isLogin   : false,
+						isFBLogin : true
+					});
+				}
+			}
+		}).catch(err => {
+			console.log(err)
+		})
+	}
 	
     render(){
+		console.log (this.state)
 		if(this.state.isLogin){
 			return <Redirect to="/in" />
+		} 
+		else if (this.state.isFBLogin) {
+			return <Redirect to={{pathname:"/Register/pages/Register_facebook", id:this.state.Login_facebook_ID}} />
 		}
 		
         return (
+			<div>
             <div id="Login_container">
 			<NavBar/> 
 			<form onSubmit={this.handleSubmit}>
@@ -89,19 +126,20 @@ class Login extends Component{
 				
                 <input id="Login_submit" type="submit" value="LOGIN"/>
 				<div id="Login_hr">&nbsp;&nbsp;&nbsp;or login with...</div>
-				<div id="LoginFB_submit">
-					<img id="Login_FB_icon" src={fb_icon} alt="fb_icon"></img>
-					<a id="Login_FB_url" href="https://www.facebook.com/groups/2484604148528585/" target="_blank" title="Facebook">Facebook</a>
-				</div>
             </form>
 			
-                {/*<div id="Login_footer">
-                    <img id="Login_logo" src={eesa_icon} alt="logo" ></img>
-                    <p id="Login_footer_text">聯絡信箱 : ntueesa@gmail.com</p>
-                    <p id="Login_footer_text_2">台灣大學電機工程學系 系學會</p>
-		</div>*/}
-		<footer id="index_footer"><Footer/></footer>
+			<FacebookLogin
+				appId="176796437077702"
+				autoLoad={false}
+				fields="name,email,picture"
+				callback={this.handleFBSubmit}
+				cssClass="btnFacebook"
+				icon="fa-facebook"
+				textButton = "&nbsp;&nbsp;Sign In with Facebook" 
+			/>
             </div>
+			<Footer/>
+			</div>
         )
     }
 }
