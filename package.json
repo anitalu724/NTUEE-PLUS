@@ -9,6 +9,7 @@
     "dom-css": "^2.1.0",
     "immutable": "^4.0.0-rc.12",
     "jquery": "^3.4.1",
+    "mongoose": "^5.9.10",
     "react": "^16.10.2",
     "react-custom-scrollbars": "^4.2.1",
     "react-dom": "^16.10.2",
